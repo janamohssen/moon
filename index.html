@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <title>Store</title>
+</head>
+<body>
+    <header>
+        <h2><a href="#" class="logo">moon Store</a></h2>
+        <div class="search-box">
+            <form action="">
+                <input type="text" name="search" id="src" placeholder="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Product</a></li>
+            <li class="hideOnMobile"><a href="#">Shop</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="26px" height="26px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg></a></li>
+        </ul>
+    </header>
+    <section class="main">
+        <img src="images/stars1.png" id="stars">
+        <h2 class="ez">moon</h2>
+        <img src="images/moon2.png" id="moon">
+        <img src="images/mountains3.png" id="mountains3">
+        <img src="images/mountains4.png" id="mountains4">
+        <img src="images/river5.png" id="river">
+        <img src="images/boat6.png" id="boat">
+        <img src="images/mountains7.png" id="mountains7">
+    </section>
+
+    <div class="content">
+        <h2>The Enigmatic Beauty of the Moon</h2>
+        <p>The moon, Earth's constant companion, has captivated humanity for millennia with its ethereal glow and mysterious allure. As the brightest object in the night sky, it serves as a celestial beacon, guiding travelers and inspiring poets, artists, and scientists alike. With its mesmerizing phases and enigmatic surface, the moon has woven itself into the fabric of human culture, symbolizing everything from romance and mystery to cycles of renewal and transformation.The moon's serene presence has sparked countless myths and legends across cultures worldwide. Ancient civilizations revered it as a deity, attributing its cycles to divine forces governing the cosmos. From the serene goddess Luna of Roman mythology to the elusive Chang'e of Chinese folklore, the moon's influence transcends time and borders, weaving a tapestry of stories that reflect humanity's fascination with the celestial realm.</p><br>
+        <p>Yet, beyond its mythical allure, the moon remains a scientific marvel, beckoning exploration and discovery. Its surface, scarred by craters and maria, tells a tale of cosmic bombardment and geological evolution. From the Apollo missions to modern robotic explorers, humanity has ventured to the moon's barren landscape, unraveling its secrets and expanding our understanding of the universe.The moon's phases, from the waxing crescent to the waning gibbous, symbolize the eternal dance of light and darkness, growth and decay. Each phase carries its own symbolism, evoking emotions ranging from hope and anticipation to introspection and melancholy. The full moon, in particular, holds a special allure, casting a luminous glow upon the Earth and stirring the soul with its timeless beauty.Moreover, the moon plays a crucial role in shaping Earth's environment and sustaining life as we know it. Its gravitational pull creates the ocean tides, sculpting coastlines and influencing marine ecosystems. The moon's presence also stabilizes Earth's axial tilt, ensuring the planet's climatic stability over geological timescales.</p><br>
+        <p>In recent years, the moon has once again captured the imagination of humanity, as nations and private companies set their sights on lunar exploration and colonization. Ambitious missions aim to establish lunar outposts and pave the way for future manned missions to Mars and beyond. The moon, once a distant dream, is now within reach, beckoning humanity to venture forth and explore new frontiers in space.Yet, amid the fervor of space exploration, the moon remains a symbol of unity and wonder, reminding us of our shared humanity and interconnectedness with the cosmos. Whether gazing up at the night sky or contemplating its mysteries from afar, the moon continues to inspire awe and reverence, inviting us to ponder our place in the vast expanse of the universe. As we journey onward, let us carry the spirit of exploration and discovery, guided by the timeless wisdom of the moon and the stars.</p>
+    </div>
+
+    <script src="main.js"></script>
+<footer>
+    &copy; <span class="specific-word">2024 Moon Store</span> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+</footer>
+
+</body>
+</html>
